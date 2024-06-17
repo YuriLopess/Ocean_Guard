@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@100..900&family=Roboto&family=Signika:wght@300..700&display=swap');
+
+:root {
+    --color-one: #ffffff;
+    --color-two: #97BFB7;
+    --color-three: #161920;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+}
+
+body {
+    background-color: var(--color-one);
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 70px;
+}
+
+#container-left h1 {
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+#container-left p {
+    font-size: 25px; 
+    margin-bottom: 10px;
+}
+
+span {
+    color: var(--color-two);
+}
+
+#inputs {
+    margin-top: 50px;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 3px solid black;
+    transition: 0.5s;
+}
+
+.form-control:hover {
+    border: 3px solid var(--color-two);
+}
+
+.form-control::placeholder {
+    font-size: 20px;
+}
+
+#inputs {
+    display: grid;
+}
+
+#login-button {
+    text-align: center;
+    
+}
+
+#login-button button {
+    font-size: 20px;
+    padding: 6px 25px ;
+    background-color: var(--color-two);
+    color: var(--color-one);
+    border: 3px solid var(--color-two);
+    transition: 1s;
+    cursor: pointer;
+}
+
+#login-button button:hover {
+    border: 3px solid var(--color-two);
+    color: var(--color-two);
+    background-color: var(--color-one);
+}
+
+#container-right {
+    position: relative;
+}
+
+#container-image img {
+    width: 550px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+#container-right-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 560px;
+    width: 450px;
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+#container-right-content:hover {
+    transform: translate(-50%, -52%);
+}
+
+#container-right-content h2 {
+    font-size: 35px;
+}
+
+#container-right-content p {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#make-account {
+    margin-top: 250px;
+}
+
+#make-account button {
+    background-color: var(--color-three);
+    color: var(--color-one);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 25px ;
+    border: none;
+    border: 3px solid var(--color-three);
+    transition: 1s;
+    cursor: pointer;
+}
+
+#make-account button:hover {
+    border: 3px solid var(--color-three);
+    color: var(--color-three);
+    background-color: rgba(255, 255, 255, 0.5);;
+}

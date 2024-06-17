@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Ocean Guard</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a href="#contextualization" class="sidebar-element">Contextulização</a></li>
+                <li><a href="#technologies" class="sidebar-element">Tecnologias</a></li>
+                <li><a href="#objectives" class="sidebar-element">Objetivos</a></li>
+                <li><a href="#audience" class="sidebar-element">Público Alvo</a></li>
+                <li><a href="#benefits" class="sidebar-element">Benefícios</a></li>
+                <li><a href="#impacts" class="sidebar-element">Impacto</a></li>
+                <li><a href="/login.html" class="sidebar-element">Login</a></li>
+            </ul>
+            <ul>
+                <li id="logo"><p href="#">Ocean<br>Guard</p></li>
+                <li onclick="showSidebar()"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <video autoplay muted loop src="./src/assets/video/background_green.mp4" id="home-video"></video>
+            <h1>Ocean Guard</h1>
+        </section>
+
+        <section id="contextualization">
+            <div class="panel-left body-left">
+                <h2>A Saúde do <br> <span>Oceano</span> </h2>
+                <p>Os oceanos cobrem mais de 70% da superfície da Terra e são essenciais para a vida no planeta. Eles regulam o clima, fornecem alimentos, absorvem dióxido de carbono e são o lar de uma biodiversidade incrível.</p>
+                <p>No entanto, a saúde dos oceanos está em risco devido a diversas ameaças provocadas pela atividade humana. Este problema urgente requer atenção e ação imediata.</p>
+                <p>Um dos maiores desafios que os oceanos enfrentam é a poluição. Milhões de toneladas de lixo, principalmente plásticos, são despejados nos mares todos os anos.</p>
+                <p>Esse lixo não apenas prejudica a vida marinha, mas também afeta a cadeia alimentar, chegando até aos seres humanos.</p>
+                <p>Microplásticos têm sido encontrados em peixes e frutos do mar, representando um risco potencial para a saúde.</p>
+                
+            </div>
+
+            <div class="panel-right">
+                <p>Somos uma empresa de tecnologia que utiliza automações de inteligência artificial para preservar a saúde dos oceanos.</p>
+                <p>Nossa missão é proteger e conservar esses ecossistemas vitais para o equilíbrio do planeta</p>
+                <img src="./src/assets/img/contextualization.png" alt="Imagem de uma tartaruga">
+            </div>
+        </section>
+
+        <section id="technologies">
+            <div class="content-top">
+                <h2> <span>Inovações Tecnológicas</span> Para <br> a Preservação dos Oceanos</h2>
+            </div>
+
+            <div class="content-bottom">
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel">
+                        <img src="./src/assets/img/slide-1.png" alt="ia" draggable="false">
+                        <img src="./src/assets/img/slide-2.png" alt="agentes ia" draggable="false">
+                        <img src="./src/assets/img/slide-3.png" alt="dispositivo egde" draggable="false">
+                        <img src="./src/assets/img/slide-4.png" alt="sites interativos" draggable="false">
+                        <img src="./src/assets/img/slide-5.png" alt="programa python" draggable="false">
+                        <img src="./src/assets/img/slide-6.png" alt="storytelling" draggable="false">
+                    </div>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                  </div>
+
+                <div class="button">
+                    <button>Saiba Mais</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="waves">
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use class="wave-1" xlink:href="#gentle-wave" x="48" y="0"  />
+                    <use class="wave-2" xlink:href="#gentle-wave" x="48" y="3" />
+                    <use class="wave-3" xlink:href="#gentle-wave" x="48" y="5" />
+                    <use class="wave-4" xlink:href="#gentle-wave" x="48" y="7" />
+                </g>    
+            </svg>
+        </div>
+        
+        <section id="objectives">
+            
+            <div class="panel-left">
+                <img src="./src/assets/img/objectives.png" alt="Imagem de uma ong fazendo limpe">
+            </div>
+
+            <div class="panel-right">
+                <h2> <span>Objetivos</span> a serem <br> alcançados</h2>
+                <p>Trabalhamos para reduzir a quantidade de lixo plástico e outros poluentes nos oceanos através de ações coordenadas de limpeza e conscientização. Nosso objetivo é proteger a saúde dos oceanos, promovendo práticas de conservação e recuperação.</p>
+                <h3>Conscientização e Engajamento <br> Comunitário</h3>
+                <p>Buscamos aumentar a conscientização pública sobre os problemas ambientais dos oceanos e educar comunidades costeiras sobre a importância da preservação marinha. 
+                Mobilizamos a comunidade para participar ativamente na proteção dos oceanos através de campanhas de voluntariado, mutirões de limpeza e eventos educacionais. </p>
+                <p>Além disso, colaboramos organizações nacionais para desenvolver e implementar políticas públicas eficazes para a conservação marinha.</p>
+            </div>
+        </section>
+
+        <section id="audience">
+            <div class="content-top">
+                <h2> <span>Público</span> Alvo Impactado</h2>
+                <p>Nossa iniciativa é projetada para impactar positivamente uma ampla gama de grupos, incluindo comunidades<br> costeiras, pescadores, turistas, estudantes, ONGs e pesquisadores. Cada um desses grupos depende de oceanos <br>saudáveis para sua subsistência, lazer, educação ou pesquisa.
+                Ao oferecer uma plataforma que centraliza dados <br>e soluções,  capacitamos essas comunidades a participar ativamente na proteção e  preservação dos oceanos,<br> beneficiando tanto o meio ambiente quanto a sociedade como um todo.</p>
+            </div>
+
+            <div class="content-bottom">
+                <div class="content-block" id="content-1">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Comunidades</h3>
+                    <p>As comunidades costeiras, que dependem dos recursos marinhos para sua subsistência e bem-estar, são diretamente beneficiadas pela preservação dos oceanos. Pescadores e indústrias pesqueiras, que dependem da pesca sustentável, se beneficiam da redução da poluição e da preservação dos habitats marinhos.</p>
+                </div>
+
+                <div class="content-block" id="content-2">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h3>ONGs e Pesquisadores</h3>
+                    <p>Organizações Não Governamentais (ONGs) podem usar nossa plataforma para obter dados, coordenar ações e amplificar seus esforços. Pesquisadores e cientistas têm acesso a dados precisos e atualizados sobre a saúde dos oceanos, essenciais para suas pesquisas e estudos.</p>
+                </div>
+
+                <div class="content-block" id="content-3">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <h3>Turismo e Educação</h3>
+                    <p>O setor de turismo também é impactado positivamente, uma vez que a qualidade ambiental é um fator chave para o turismo sustentável. Estudantes e educadores encontram em nossa plataforma recursos educativos e oportunidades de engajamento prático.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="waves">
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use class="wave-1" xlink:href="#gentle-wave" x="48" y="0"  />
+                    <use class="wave-2" xlink:href="#gentle-wave" x="48" y="3" />
+                    <use class="wave-3" xlink:href="#gentle-wave" x="48" y="5" />
+                    <use class="wave-4" xlink:href="#gentle-wave" x="48" y="7" />
+                </g>    
+            </svg>
+        </div>
+
+        <section id="benefits">
+            <div class="content-top">
+                <h2> <span>Impacto Positivo</span> da Solução</h2>
+            </div>
+
+            <div id="benefits-bottom">
+                <div class="panel-left">
+                    <h3>Conscientização e União</h3>
+                    <p>O engajamento comunitário aumenta com a participação das comunidades locais em iniciativas de conservação, fortalecendo o senso de responsabilidade e cooperação. A conscientização pública sobre os desafios ambientais dos oceanos e as práticas sustentáveis é ampliada através de recursos educativos contínuos.</p>
+                    <h3>Economia</h3>
+                    <p>Além disso, nossa solução apoia a economia local, melhorando as condições para atividades econômicas sustentáveis como pesca e turismo. Também influenciamos positivamente a criação e implementação de políticas públicas que promovem a conservação dos oceanos.</p>
+                </div>
+
+                <div class="panel-right">
+                    <img src="./src/assets/img/benefits.png" alt="">
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section id="impacts">
+            <div class="panel-left">
+                <h2>Como a <span>Solução </span> pode ajudar no dia a dia</h2>
+                <p>Os usuários podem acessar rapidamente dados sobre a qualidade da água e incidentes ambientais em suas áreas, o que, por sua vez, ajuda a entenderem melhor o impacto de suas ações e a monitorarem o progresso ao longo do tempo. Consequentemente, com a redução da poluição e a melhoria da qualidade da água, as comunidades costeiras podem desfrutar de um ambiente mais saudável. Esse benefício impacta diretamente a saúde pública e a segurança alimentar.</p>
+                <div class="button">
+                    <button>Saiba Mais</button>
+                    <button><a href="login.html">Faça o Login</a></button>
+                </div>
+            </div>
+
+            <div class="panel-right">
+                <img src="./src/assets/img/impacts.svg" alt=""> 
+            </div>
+        </section>
+    </main>
+
+    <div class="waves">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use class="wave-1" xlink:href="#gentle-wave" x="48" y="0"  />
+                <use class="wave-2" xlink:href="#gentle-wave" x="48" y="3" />
+                <use class="wave-3" xlink:href="#gentle-wave" x="48" y="5" />
+                <use class="wave-4" xlink:href="#gentle-wave" x="48" y="7" />
+            </g>    
+        </svg>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Companhia</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Nossos Serviços</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Seções</h4>
+                    <ul>
+                        <li><a href="#">Contextulização</a></li>
+                        <li><a href="#">Tecnologias</a></li>
+                        <li><a href="#">Objetivos</a></li>
+                        <li><a href="#">Público Alvo</a></li>
+                        <li><a href="#">Benefícios</a></li>
+                        <li><a href="#">Impacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Portal de Privacidade</h4>
+                    <ul>
+                        <li><a href="#">Proteção de Dados</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Solicitação de Direitos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/transitions.js"></script>
+</body>
+</html>
