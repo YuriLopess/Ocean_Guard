@@ -1,5 +1,5 @@
 # Ocean Guard
-![Ilustration](https://github.com/user-attachments/assets/33ba99a0-269c-4e4a-897c-b047ec2e2171)
+![Full Carbon XT 12 Blue (1)](https://github.com/user-attachments/assets/2b1985b4-8786-457d-a0df-ede8838b130e)
 
 ## Vídeo de Demonstração
 
